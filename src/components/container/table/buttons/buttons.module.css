@@ -1,0 +1,51 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.little {
+    padding: 0 16px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #0b42cc;
+    background: linear-gradient(#007bff, #007bff 48%, #007bff 52%, #007bff);
+}
+.little:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+}
+
+
+.big {
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em green;
+    background: linear-gradient(green, green 48%, green 52%, green);
+}
+.big:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+}

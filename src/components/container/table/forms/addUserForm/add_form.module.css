@@ -1,0 +1,98 @@
+form {
+    margin: 10px 0;
+}
+
+.search_container {
+    display: flex;
+}
+
+.form_input {
+    border: 1px solid #80808078;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.form_input:focus {
+    border: 1px solid black;
+}
+
+.select_list {
+    border: 1px solid #80808078;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.select_list:focus {
+    border: 1px solid #80808078;
+}
+
+.button_add {
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #0b42cc;
+    background: linear-gradient(#007bff, #007bff 48%, #007bff 52%, #007bff);
+}
+.button_add:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+}
+
+.button_close {
+    padding: 0px 11px;
+    position: relative;
+    display: inline-block;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #777;
+    color: #fff;
+    outline: none;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset, 0.1em 0.1em 0.2em #800;
+    background: linear-gradient(#ff0000, #ff0000 48%, #ff0000 52%, #661818);
+}
+
+.button_close:active {
+    top: 0.1em;
+    left: 0.1em;
+    box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+}
+
+.form_container {
+    transition: 0.6s;
+    width: 0%;
+}
+
+
+.input_container {
+    width: 100%;
+    margin-right: 5px;
+    
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    border-color: red;
+}
+
+.form_input_error {
+    border: 1px solid red;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
